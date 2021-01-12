@@ -75,4 +75,6 @@
      name: httpd
      state: restarted
      enabled: yes
+
+
 # tasks file for roles/centos/Nagios
