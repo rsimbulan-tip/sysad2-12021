@@ -10,24 +10,24 @@
    - centos/nagios
    - motd
 
-#- name: Cloning prelims on debian
-#  hosts:
-#   - Debian
-#  vars_files:
-#   - config.yaml
-#  roles:
-#   - debian/clone
-#  - debian/ftp
-#   - debian/nagios
-#   - motd
+- name: Cloning prelims on debian
+  hosts:
+   - Debian
+  vars_files:
+   - config.yaml
+  roles:
+   - debian/clone
+  - debian/ftp
+   - debian/nagios
+   - motd
 
-#- name: Cloning prelims on OpenSuse
-#  hosts:
-#   - Suse
-#  vars_files:
-#   - config.yaml
-#  roles:
-#   - suse/clone
-#   - suse/ftp
-#  - suse/nagios
-#   - motd
+- name: Cloning prelims on OpenSuse
+  hosts:
+   - Suse
+  vars_files:
+   - config.yaml
+  roles:
+   - suse/clone
+   - suse/ftp
+  - suse/nagios
+   - motd
