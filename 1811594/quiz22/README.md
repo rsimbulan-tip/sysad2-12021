@@ -1,2 +1,10 @@
-
-How to install Linux, Apache, MySQL, PHP(LAMP) stack on Ubuntu 20.04
+```
+.
+├── InvSim
+├── README.md
+├── Vars
+│   └── VarA
+├── ansible.cfg
+└── playbook22.yml
+```
+1 directory, 5 files
